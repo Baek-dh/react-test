@@ -1,19 +1,16 @@
 import './App.css';
-import Test1 from './Test1';
-import Test2 from './Test2';
+import NumberPlusMinus from './components/NumberPlusMinus';
+import NpLessThen0 from './components/NoLessThen0.js'
+import InputNumberPlusMinus from './components/InputNumberPlusMinus';
 
 function App() {
-    return(
-        <>
-            {/* 카운트 증가/감소 */}
-            <Test1/>
-
-            <hr/>
-
-            {/* h1 내용 변경/삭제하기 */}
-            <Test2/>
-        </>
-    );
+  return (
+    <div className="App">
+      {/* <NumberPlusMinus/> */}
+      {/* <NpLessThen0/> */}
+      <InputNumberPlusMinus/>
+    </div>
+  );
 }
 
 export default App;

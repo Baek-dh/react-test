@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// h1 내용 변경/삭제하기
 const Test2 = () => {
     const [text, setText] = useState('변경 버튼 클릭시 이 부분이 변경됩니다');
     const [input, setInput] = useState('');
